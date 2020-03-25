@@ -1,0 +1,508 @@
+body
+{
+    margin:0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.FW
+{
+	position:relative;
+	background:#36383b;	
+	color:white;
+	padding:144px 32px;
+}
+
+.FW div
+{
+	max-width: 1300px;
+	margin:auto;
+}
+
+.FW h1
+{
+	margin-top: 0;
+	text-transform: uppercase;
+	font-size: 32px;
+	text-align: center;
+} 
+
+.Fw a, .BS a, .G a
+{
+	text-align: center;
+}
+
+
+.BS, .G
+{
+	position:relative;
+	background:#ea202e;
+}
+
+
+.BScont
+{	
+	float:right;
+	width: 50%;	
+}
+
+.BScont div, .Gcont div 
+{
+	padding: 120px 24px;
+	max-width: 700px;
+	margin:auto;
+}
+
+.FW span, .BScont span, .Gcont span 
+{
+	display: block;
+	text-align: center;
+}
+
+.BSph
+{
+	background-image:url('img/img28.jpg');
+	background-size: cover;	
+	position:absolute;
+    width:50%;
+    height:auto;
+    top:0;
+    bottom: 0;
+    background-position: center;
+}
+
+.BScont, .Gcont, .services_container a
+{
+	color:white;
+}
+
+.clearfix:after
+{
+    content:".";
+    visibility:hidden;
+    display:block;
+    height: 0;
+    clear: both;
+}
+
+
+.Gcont
+{
+	float:left;
+	width:50%;
+}
+
+.Gph
+{
+	background: url('img/img53.jpg');
+	background-size: cover;
+	background-position: center;
+	position:absolute;
+	width:50%;
+	height:auto;
+	right: 0;
+	bottom:0;
+	top:0;
+}
+
+.footer
+{
+	position:relative;
+	background-color:#36383b; 
+	background-image: url('img/img23_1.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 112px;	
+	color:white;
+}
+
+.footer h1, .footer p
+{	
+	text-align:center;
+	text-transform: uppercase;	
+}
+
+.footer h1
+{
+	margin: 0;
+	font-size: 90px;
+}
+
+.phone
+{
+	position: relative;
+	margin: 0 auto;
+	width: 255px;
+}
+
+.phone_cont
+{
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	right: 10px;
+	font-size: 20px;
+}
+
+
+
+.price_T, .application, .services_container
+{
+	position: relative;
+	background: #36383b;
+	color:white;
+	padding: 25px;
+
+}
+
+.price_T h1, .application h1, .news_container h1,
+.services_container h1, .capabilities h2
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+.price_T table
+{
+	border-collapse: collapse;	
+	width:100%;
+	border-color: #4d4d4e;
+}
+
+.price_T table td:not(:first-child)
+{
+	text-align: center;
+}
+
+.price_T table td:first-child
+{
+	padding-left: 5px;
+}
+
+.price_T table th
+{
+	background-color: #1b1717;
+	text-transform: uppercase;
+	padding:4px 0;
+}
+
+.price i
+{
+	color:#ea202e;
+	font-weight: bold;
+}
+
+.application i
+{
+	color:#ea202e;
+}
+
+.container_form *
+{
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+}
+
+
+
+
+.row:after
+{
+	content:"";
+	display: table;
+	clear:both;
+}
+
+.row span{
+	margin-left:11em;
+	color:#ea202e;
+}
+
+.label
+{
+	float: left;
+	width:11em;
+	margin-top: 5px;
+}
+
+.input, .input_r
+{
+	margin-left:11em;
+	margin-top: 5px;
+}
+
+textarea, input[type="text"]
+{
+	width:100%;
+	padding: 10px;
+	border-radius: 4px;
+	border: none;
+	background: rgba(29,32,34,1);
+}
+
+.input_r, .pagination, .services
+{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.input_r li, .pagination li
+{
+	display: inline-block;	
+}
+
+input[type="submit"]
+{
+	border-radius: 8px;
+	padding:10px 15px;
+	float:right;
+	border:none;
+	margin-top: 10px;
+	background-color: rgba(29,32,34,1);
+	color: white;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover
+{
+	background: rgba(32,35,37,1);
+}
+
+@media only all and (max-width: 465px)
+{
+	.input, .input_r
+	{
+		margin-left: 0;
+		clear:both;
+	}
+
+	.row span{
+		margin-left: 0;
+	}
+
+	.input_r li
+	{
+		display: block;
+	}
+
+	.label
+	{
+		width:auto;
+	}
+
+	input[type="submit"]
+	{
+		width:100%;
+	}
+
+	.price_T h1, .application h1
+	{
+		font-size: 20px;
+	}
+}
+
+.news_container
+{
+	position: relative;
+	color: white;
+	padding:50px;
+	background: #36383b;
+}
+
+
+
+.column1
+{	
+    width: 30%;
+    float: left;
+}
+
+.column2
+{	
+    width: 30%; 
+    float: right;   
+}
+
+.column3
+{	
+    width: 30%; 
+    margin-left: 35%;
+    margin-right: 35%; 
+}
+
+.row1, .row2, .row3
+{
+	margin-bottom: 20px;
+}
+
+.row1 h3, .row2 h3, .row3 h3
+{
+	margin: 0;
+	color:#847d7d;
+	text-transform: uppercase;
+}
+
+.column1 p:first-of-type, .column2 p:first-of-type, .column3 p:first-of-type
+{
+	border-bottom: solid 2px rgb(93,95,99,1);	
+	margin-top: 0;
+}
+
+.column1 p:last-of-type, .column2 p:last-of-type, .column3 p:last-of-type
+{	
+	margin-bottom: 5px;
+}
+
+
+
+
+@media only all and (max-width: 700px)
+{
+	.column1, .column2, .column3
+	{
+		width:100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+
+	.column3
+	{
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.row1, .row2, .row3
+    {
+	    margin-bottom: 0;
+    }
+}
+
+
+.services_container a:hover
+{
+    color: #ea202e;
+}
+
+
+.capabilities p:first-of-type
+{
+	margin-top: 0;
+}
+
+.capabilities img
+{
+	float: left;
+	width:500px;
+	margin-right: 20px;
+}
+
+@media only all and (max-width: 785px)
+{
+	.capabilities img {float:none; width:100%;}	
+}
+
+@media only all and (max-width:990px)
+{
+	.FW, .BScont div, .Gcont div
+	{
+		padding:30px 32px;
+	}
+
+	.BSph, .Gph 
+	{
+		width: 100%;
+		height: 40vw;
+		min-height: 250px;
+		position: relative;
+		background-position: bottom;
+	}
+
+	.BScont, .Gcont
+	{
+		float: none;
+		width: 100%;
+	}
+
+
+	.footer{padding:30px;}
+	.footer h1 
+	{
+		font-size: 50px;
+	}
+}
+
+@media only all and (max-width: 550px)
+{
+	.FW, .BScont div, .Gcont div, .services_container, 
+	.application, .news_container
+	{
+		padding: 15px;
+	}
+
+	.price_T {padding:0; font-size: 14px;}
+
+	.FW h1,  .application h1, .price_T h1,
+    .news_container h1, .services_container h1
+	{
+	 	font-size: 25px;
+	}	 
+
+	
+	.price_T table th
+    {
+	    background-color: #1b1717;
+	    text-transform: none;
+	    padding:0;
+    }
+
+	
+	.footer, .price {padding:5px;}
+	.footer h1
+	{
+		font-size: 32px;
+	}
+
+	.footer p, .capabilities h2, .row1 h3, .row2 h3, .row3 h3 
+	{
+		text-transform: none;
+	}
+
+	.row1 h3, .row2 h3, .row3 h3
+	{
+		font-size: 16px;
+	}
+
+	.capabilities img {margin-right: 0;}
+
+	.phone {width: 100%;}
+
+    .phone_cont 
+    {
+    	position: relative;
+    	padding:0;
+    	text-align: center;
+    	right:0;
+    	font-size: 16px;    	  	
+    }
+
+}
+
+@media only all and (max-width: 250px)
+{
+	.FW h1, .price_T h1, .application h1,.price_T h1,
+    .news_container h1, .services_container h1,
+    .capabilities h2
+    {
+    	font-size: 16px;
+    }
+
+    .FW, .BScont div, .Gcont div, .services_container, 
+	.application, .news_container
+	{
+		padding: 7px;
+	}
+
+    .services_container a {font-weight: 100; text-decoration: underline;}
+	.footer h1 {font-size: 16px}
+}
